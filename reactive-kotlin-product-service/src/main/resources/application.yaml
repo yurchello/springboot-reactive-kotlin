@@ -1,2 +1,14 @@
 server:
   port: 8081
+
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://192.168.0.134:15432/reactive_prod
+    username: postgres
+    password: postgres
+
+  liquibase:
+    change-log: classpath:db.changelog-master.yaml
+    url: jdbc:postgresql://192.168.0.134:15432/reactive_prod
+    user: postgres
+    password: postgres
