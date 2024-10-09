@@ -1,2 +1,24 @@
 kafka UI: http://localhost:8080/
 change idea settings like on the picture
+
+https://codersee.com/apache-kafka-with-spring-boot-and-kotlin/
+https://www.baeldung.com/kotlin/spring-boot-kotlin-coroutines
+https://github.com/Baeldung/kotlin-tutorials/blob/master/spring-boot-test-kotlin/src/test/kotlin/com/baeldung/springboottestkotlin/KotlinTestingDemoApplicationIntegrationTest.kt
+https://spring.io/blog/2019/04/12/going-reactive-with-spring-coroutines-and-kotlin-flow
+https://theanirban.dev/build-rest-api-spring-boot-kotlin/
+https://medium.com/simform-engineering/introduction-to-kotlin-flow-f425b5a839f
+https://spring.io/guides/tutorials/spring-boot-kotlin
+https://codersee.com/reactive-rest-api-with-spring-kotlin-and-coroutines/
+https://github.com/codersee-blog/spring-boot-3-kotlin-coroutines/blob/main/build.gradle.kts
+https://medium.com/@muhammadusama_43306/how-to-use-mapstruct-with-spring-boot-kotlin-painlessly-55184765ace4
+https://www.baeldung.com/spring-boot-multiple-modules
+https://www.baeldung.com/kotlin/spring-boot-kotlin
+https://codersee.com/spring-webclient-with-kotlin-coroutines/
+https://www.baeldung.com/kotlin/spring-boot-testing
+https://spring.io/guides/tutorials/spring-boot-kotlin
+https://www.baeldung.com/kotlin/mockk#basic-example
+https://www.baeldung.com/spring-boot-testresttemplate
+https://github.com/Baeldung/kotlin-tutorials/blob/master/spring-boot-test-kotlin/src/test/kotlin/com/baeldung/springboottestkotlin/BankAccountServiceUnitTest.kt
+https://www.baeldung.com/kotlin/spring-resttemplate-examples
+https://medium.com/backyard-programmers/kotlin-spring-boot-unit-testing-integration-testing-with-junit5-and-mockk-a2977bbe5711
+
