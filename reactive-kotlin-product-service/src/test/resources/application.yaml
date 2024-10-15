@@ -9,3 +9,19 @@ spring:
     url: jdbc:postgresql://localhost:15432/reactive_prod
     user: postgres
     password: postgres
+
+  kafka:
+    bootstrap-servers: localhost:29092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      properties:
+        acks: 1
+        spring:
+          json:
+            add:
+              type:
+                headers: false
+
+topic:
+  send-product: sync-product-event
