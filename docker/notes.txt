@@ -1,5 +1,7 @@
 kafka UI: http://localhost:8080/
 change idea settings like on the picture
+Prometheus is accessible via http://localhost:9090
+Grafana is accessible via http://localhost:3000
 
 https://codersee.com/apache-kafka-with-spring-boot-and-kotlin/
 https://www.baeldung.com/kotlin/spring-boot-kotlin-coroutines

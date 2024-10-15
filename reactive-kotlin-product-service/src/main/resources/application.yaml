@@ -9,17 +9,17 @@ management:
 
 spring:
   r2dbc:
-    url: r2dbc:postgresql://192.168.0.134:15432/reactive_prod
+    url: r2dbc:postgresql://localhost:15432/reactive_prod
     username: postgres
     password: postgres
   liquibase:
     change-log: classpath:db.changelog-master.yaml
-    url: jdbc:postgresql://192.168.0.134:15432/reactive_prod
+    url: jdbc:postgresql://localhost:15432/reactive_prod
     user: postgres
     password: postgres
 
   kafka:
-    bootstrap-servers: 192.168.0.134:29092
+    bootstrap-servers: localhost:29092
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
